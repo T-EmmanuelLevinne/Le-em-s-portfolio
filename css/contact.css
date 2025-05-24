@@ -1826,3 +1826,152 @@ footer {
     height: 3px;
   }
 }
+
+/* Responsive styles for contact section */
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 0 1rem;
+  }
+
+  #contact-section {
+    padding: 1rem 0;
+  }
+
+  .pixel-border {
+    padding: 1rem;
+  }
+
+  .pixel-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .pixel-box {
+    padding: 1rem;
+  }
+
+  .pixel-box-header {
+    margin-bottom: 0.8rem;
+  }
+
+  .pixel-input-group {
+    margin-bottom: 1rem;
+  }
+
+  .pixel-label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  .pixel-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .pixel-social-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .pixel-link {
+    padding: 0.8rem;
+    justify-content: center;
+  }
+
+  .pixel-status-bar {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+  }
+
+  .init-message {
+    padding: 1rem;
+  }
+
+  .init-line {
+    font-size: 1rem;
+  }
+
+  .status-text {
+    font-size: 0.8rem;
+  }
+
+  .title-container {
+    padding: 1rem;
+  }
+
+  .section-title.pixel-text {
+    font-size: 1.8rem;
+  }
+
+  .node-title h3.pixel-text,
+  .network-title h3.pixel-text {
+    font-size: 1rem;
+  }
+
+  .packet-title h3.pixel-text {
+    font-size: 1.1rem;
+  }
+
+  .packet-size {
+    font-size: 0.7em;
+    padding: 0.15rem 0.4rem;
+  }
+}
+
+/* Additional adjustments for very small devices */
+@media (max-width: 480px) {
+  .content-wrapper {
+    padding: 0 0.8rem;
+  }
+
+  .pixel-border {
+    padding: 0.8rem;
+  }
+
+  .section-title.pixel-text {
+    font-size: 1.5rem;
+  }
+
+  .pixel-status-bar {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .pixel-status {
+    font-size: 0.75rem;
+  }
+
+  .pixel-box {
+    padding: 0.8rem;
+  }
+
+  .pixel-button {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .pixel-link {
+    font-size: 0.9rem;
+  }
+
+  .node-title h3.pixel-text,
+  .network-title h3.pixel-text {
+    font-size: 0.9rem;
+  }
+
+  .packet-title h3.pixel-text {
+    font-size: 1rem;
+  }
+
+  .packet-size {
+    font-size: 0.65em;
+  }
+}
